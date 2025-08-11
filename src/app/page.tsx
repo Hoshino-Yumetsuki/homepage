@@ -25,7 +25,11 @@ export default function HomePage() {
             <ClockCard />
           </div>
           <div className={styles.bottomCardsContainer}>
-            <LinkCard title="GitHub" icon={faGithub} url="https://github.com/Hoshino-Yumetsuki" />
+            <LinkCard
+              title="GitHub"
+              icon={faGithub}
+              url="https://github.com/Hoshino-Yumetsuki"
+            />
             <LinkCard
               title="Bilibili"
               icon={faBilibili}
