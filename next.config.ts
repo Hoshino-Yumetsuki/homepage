@@ -1,5 +1,6 @@
 const nextConfig: import('next').NextConfig = {
-  trailingSlash: true
+  trailingSlash: true,
+  output: 'export'
 }
 
 export default nextConfig

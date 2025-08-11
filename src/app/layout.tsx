@@ -4,7 +4,7 @@ import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: '',
+  title: 'Q78KG 的个人主页',
   description: ''
 }
 
@@ -18,6 +18,7 @@ export default function RootLayout({
       <body
         className={`${GeistMono.variable} antialiased min-h-screen flex flex-col`}
       >
+        {children}
       </body>
     </html>
   )
